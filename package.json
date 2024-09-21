@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
-  },
+  "start": "netlify-lambda serve src",
+  "build": "netlify-lambda build src"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
