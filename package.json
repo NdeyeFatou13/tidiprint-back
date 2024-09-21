@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src --verbose"
+    "build": "netlify-lambda build src"
 },
   "dependencies": {
     "express": "^4.17.1",
