@@ -2,8 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-    "build": "netlify-lambda build src && mkdir -p build && touch build/.gitkeep"
-  },
+  "start": "netlify-lambda serve src",
+  "build": "netlify-lambda build src"
+},
   "dependencies": {
     "express": "^4.17.1",
     "serverless-http": "^2.7.0",
