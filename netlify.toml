@@ -1,4 +1,4 @@
-Copy[build]
+[build]
   command = "npm run build"
   functions = "functions"
   publish = "build"

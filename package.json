@@ -4,18 +4,17 @@
   "main": "index.js",
   "scripts": {
   "start": "netlify-lambda serve src",
-  "build": "netlify-lambda build src && mkdir -p build && touch build/.gitkeep"
+  "build": "netlify-lambda build src"
 },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
-    "netlify-lambda": "^2.0.16",
-    "nodemailer": "^6.9.15",
-    "serverless-http": "^3.2.0"
-  },
-  "description": ""
+    "nodemailer": "^6.9.15"
+  }
+
 }
