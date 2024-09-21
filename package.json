@@ -2,8 +2,8 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-  "start": "netlify-lambda serve src",
-  "build": "netlify-lambda build src"
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src --verbose"
 },
   "dependencies": {
     "express": "^4.17.1",
